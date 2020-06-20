@@ -16,5 +16,6 @@ class ViewController: UIViewController {
     }
     var name :String = " new edite1h "
     var name1 = " mohamed1asas a a "
+    let type = " male "
 }
 
