@@ -15,6 +15,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     var name :String = " new edite1h "
-    var name1 = " mohamed1"
+    var name1 = " mohamed1asas a a "
 }
 
