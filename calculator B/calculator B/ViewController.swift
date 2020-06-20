@@ -9,13 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    var name :String = " new edite1h "
-    var name1 = " mohamed1asas a a "
-    let type = " male "
+    
 }
 
