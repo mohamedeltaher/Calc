@@ -24,7 +24,7 @@ class ViewController: UIViewController {
    var  name = " mohamed" 
     
     func updateText() {
-           guard let labelInt: Int = Int(labelstring) else {
+        guard let labelInt: Int = Int(labelstring.trimmingCharacters(in:.whitespaces)) else {
                label1.text = "Error"
                return
            }
@@ -45,8 +45,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equal(_ sender: Any) {
-        guard let labelint: Int = Int(labelstring) else {
-                   label1.text = "Error"
+        guard let labelint: Int = Int(labelstring.trimmingCharacters(in:.whitespaces)) else {
+                   label1.text = "error"
                    return
                }
                if currentmode == .notSet || lastbuttonpressedwasmode {
@@ -85,7 +85,7 @@ class ViewController: UIViewController {
        savedNum = 0
        lastbuttonpressedwasmode = false
        currentmode = .notSet
-        
+        label1.text = "0"
     }
     
     @IBAction func didpressnumber(_ sender: UIButton) {
@@ -99,7 +99,6 @@ class ViewController: UIViewController {
                }
               labelstring = labelstring.appending(stringValue)
               updateText()
-      
 }
 
 }
