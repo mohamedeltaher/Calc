@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,16 +28,13 @@
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="clearbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tX-fE-1Uf"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-Gm-8Qr" colorLabel="IBBuiltInLabel-Gray">
                                 <rect key="frame" x="283.66666666666669" y="474.99999999999994" width="81.333333333333314" height="141.33333333333331"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="-">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -54,7 +51,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="x">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -71,7 +68,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="0">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -88,7 +85,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -105,7 +102,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="+">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -139,7 +136,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="9">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -156,7 +153,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="4">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -173,7 +170,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="3">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -190,7 +187,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -207,7 +204,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="5">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -224,7 +221,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="6">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -241,7 +238,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="7">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -258,7 +255,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="8">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -275,7 +272,7 @@
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="/">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
@@ -289,6 +286,30 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evY-pq-gfO">
                                 <rect key="frame" x="10" y="54.000000000000007" width="355" height="107.66666666666669"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhE-BG-n4c" colorLabel="IBBuiltInLabel-Gray">
+                                <rect key="frame" x="284" y="173" width="81.333333333333314" height="141.33333333333337"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dso-E6-LR8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeH-yh-7Hc">
+                                <rect key="frame" x="10" y="44.000000000000007" width="355" height="107.66666666666669"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -322,11 +343,13 @@
                             <constraint firstItem="w5X-OR-ddC" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="CgX-jd-DPn"/>
                             <constraint firstItem="OR9-MD-zmt" firstAttribute="top" secondItem="evY-pq-gfO" secondAttribute="bottom" constant="10" id="CtD-Cz-h9B"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e18-ts-Rsx" secondAttribute="trailing" constant="10" id="CyE-Gh-6ds"/>
+                            <constraint firstItem="Y2M-2q-q2d" firstAttribute="top" secondItem="QeH-yh-7Hc" secondAttribute="bottom" constant="20" id="DXC-4f-Vlv"/>
                             <constraint firstItem="qS6-Jk-fq3" firstAttribute="top" secondItem="OR9-MD-zmt" secondAttribute="bottom" constant="10" id="E0n-xy-epR"/>
                             <constraint firstItem="E26-f3-QnW" firstAttribute="top" secondItem="mjK-5Q-uSf" secondAttribute="bottom" constant="10" id="EIf-o3-PZo"/>
                             <constraint firstItem="PyW-Gm-8Qr" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="FGy-ku-MJf"/>
                             <constraint firstItem="OR9-MD-zmt" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="Fup-ea-cxZ"/>
                             <constraint firstItem="OR9-MD-zmt" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="GPf-Vh-INp"/>
+                            <constraint firstItem="QeH-yh-7Hc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="HMK-Do-Kbw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Sh1-5Z-t75" secondAttribute="bottom" constant="10" id="IvG-Ji-uqb"/>
                             <constraint firstItem="evY-pq-gfO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Jhx-PY-tth"/>
                             <constraint firstItem="Y2M-2q-q2d" firstAttribute="leading" secondItem="OR9-MD-zmt" secondAttribute="trailing" constant="10" id="K1O-TF-D2Z"/>
@@ -336,10 +359,13 @@
                             <constraint firstItem="Sh1-5Z-t75" firstAttribute="leading" secondItem="E26-f3-QnW" secondAttribute="trailing" constant="10" id="M55-dQ-YcZ"/>
                             <constraint firstItem="2F7-Lm-oYU" firstAttribute="leading" secondItem="Kvu-X3-ryU" secondAttribute="trailing" constant="10" id="NST-K0-DI1"/>
                             <constraint firstItem="OR9-MD-zmt" firstAttribute="leading" secondItem="2F7-Lm-oYU" secondAttribute="trailing" constant="10" id="Njb-hu-pVP"/>
+                            <constraint firstItem="QeH-yh-7Hc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NyV-Zb-w6K"/>
                             <constraint firstItem="2F7-Lm-oYU" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="PyW-jX-dEm"/>
+                            <constraint firstItem="e18-ts-Rsx" firstAttribute="top" secondItem="hhE-BG-n4c" secondAttribute="bottom" constant="9" id="Q6O-kp-lHS"/>
                             <constraint firstItem="Sh1-5Z-t75" firstAttribute="top" secondItem="C5b-Cf-WiN" secondAttribute="bottom" constant="10" id="RG7-lY-hNe"/>
                             <constraint firstItem="2F7-Lm-oYU" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="Rz8-ZG-D2P"/>
                             <constraint firstItem="PyW-Gm-8Qr" firstAttribute="leading" secondItem="C5b-Cf-WiN" secondAttribute="trailing" constant="10" id="S2l-f2-pGq"/>
+                            <constraint firstItem="hhE-BG-n4c" firstAttribute="leading" secondItem="OR9-MD-zmt" secondAttribute="trailing" constant="10.33" id="S3L-r5-5QZ"/>
                             <constraint firstItem="Kvu-X3-ryU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="SUG-RE-YpU"/>
                             <constraint firstItem="rUj-Dx-3cf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="ShD-RC-xE1"/>
                             <constraint firstItem="mjK-5Q-uSf" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="Tcr-dI-9Qz"/>
@@ -347,12 +373,14 @@
                             <constraint firstItem="KZZ-Bf-iwy" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="Y8r-4A-GLb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gYZ-fp-xmc" secondAttribute="bottom" constant="10" id="YUg-Ar-srW"/>
                             <constraint firstItem="C5b-Cf-WiN" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="ZmJ-UU-AYx"/>
+                            <constraint firstItem="hhE-BG-n4c" firstAttribute="top" secondItem="evY-pq-gfO" secondAttribute="bottom" constant="11.33" id="aKH-66-M0M"/>
                             <constraint firstItem="2F7-Lm-oYU" firstAttribute="top" secondItem="evY-pq-gfO" secondAttribute="bottom" constant="10" id="apI-aj-ew6"/>
                             <constraint firstItem="C5b-Cf-WiN" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="bkf-Ui-WOY"/>
                             <constraint firstItem="PyW-Gm-8Qr" firstAttribute="top" secondItem="e18-ts-Rsx" secondAttribute="bottom" constant="10" id="bwQ-0D-bK6"/>
                             <constraint firstItem="E26-f3-QnW" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="c2B-Ih-LVC"/>
                             <constraint firstItem="E26-f3-QnW" firstAttribute="leading" secondItem="gYZ-fp-xmc" secondAttribute="trailing" constant="10" id="czZ-dO-OKW"/>
                             <constraint firstItem="e18-ts-Rsx" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="eMl-dZ-Hkq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QeH-yh-7Hc" secondAttribute="trailing" constant="10" id="fVZ-AX-71e"/>
                             <constraint firstItem="gYZ-fp-xmc" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="gOX-5P-0xt"/>
                             <constraint firstItem="qS6-Jk-fq3" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="gSF-x9-L5a"/>
                             <constraint firstItem="E26-f3-QnW" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="gaa-Hb-QgB"/>
@@ -361,6 +389,7 @@
                             <constraint firstItem="gdW-sr-fwv" firstAttribute="top" secondItem="Kvu-X3-ryU" secondAttribute="bottom" constant="10" id="iI5-ml-y4y"/>
                             <constraint firstItem="w5X-OR-ddC" firstAttribute="leading" secondItem="Sh1-5Z-t75" secondAttribute="trailing" constant="10" id="jQw-fb-jT3"/>
                             <constraint firstItem="mjK-5Q-uSf" firstAttribute="leading" secondItem="rUj-Dx-3cf" secondAttribute="trailing" constant="10" id="kbD-oR-e21"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhE-BG-n4c" secondAttribute="trailing" constant="9.6699999999999999" id="lIV-ZQ-oN2"/>
                             <constraint firstItem="Sh1-5Z-t75" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="lux-Un-31h"/>
                             <constraint firstItem="gdW-sr-fwv" firstAttribute="width" secondItem="Kvu-X3-ryU" secondAttribute="width" id="nv9-yT-RxM"/>
                             <constraint firstItem="rUj-Dx-3cf" firstAttribute="height" secondItem="Kvu-X3-ryU" secondAttribute="height" id="p6n-Hw-4GN"/>

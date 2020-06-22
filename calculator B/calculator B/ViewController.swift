@@ -28,7 +28,7 @@ class ViewController: UIViewController {
                label1.text = "Error"
                return
            }
-           
+        
            if currentmode == .notSet {
                savedNum = labelInt
            }
@@ -93,14 +93,13 @@ class ViewController: UIViewController {
                   label1.text = "Error"
                   return
               }
-              
-              if lastbuttonpressedwasmode {
-                  lastbuttonpressedwasmode = false
-                  labelstring = "0"
-              }
-              
+        if lastbuttonpressedwasmode {
+                   lastbuttonpressedwasmode = false
+                   labelstring = "0"
+               }
               labelstring = labelstring.appending(stringValue)
               updateText()
+      
 }
 
 }
