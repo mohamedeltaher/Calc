@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2M-2q-q2d" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="283.66666666666669" y="171.66666666666663" width="81.333333333333314" height="141.33333333333337"/>
+                                <rect key="frame" x="283.66666666666669" y="171.66666666666669" width="81.333333333333314" height="141.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
                                 <state key="normal" title="AC">
@@ -28,9 +28,12 @@
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5tX-fE-1Uf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PyW-Gm-8Qr" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="283.66666666666669" y="474.66666666666669" width="81.333333333333314" height="141.66666666666669"/>
+                                <rect key="frame" x="283.66666666666669" y="474.99999999999994" width="81.333333333333314" height="141.33333333333331"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="-">
@@ -47,7 +50,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e18-ts-Rsx" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="283.66666666666669" y="323" width="81.333333333333314" height="141.66666666666663"/>
+                                <rect key="frame" x="283.66666666666669" y="323.33333333333331" width="81.333333333333314" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="x">
@@ -115,7 +118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OR9-MD-zmt" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="192.66666666666666" y="171.66666666666663" width="80.999999999999972" height="141.33333333333337"/>
+                                <rect key="frame" x="192.66666666666666" y="171.66666666666669" width="80.999999999999972" height="141.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="=">
@@ -132,7 +135,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F7-Lm-oYU" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="101.33333333333334" y="171.66666666666663" width="81.333333333333343" height="141.33333333333337"/>
+                                <rect key="frame" x="101.33333333333334" y="171.66666666666669" width="81.333333333333343" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="9">
@@ -149,7 +152,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5b-Cf-WiN" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="192.66666666666666" y="474.66666666666669" width="80.999999999999972" height="141.66666666666669"/>
+                                <rect key="frame" x="192.66666666666666" y="474.99999999999994" width="80.999999999999972" height="141.33333333333331"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="4">
@@ -166,7 +169,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjK-5Q-uSf" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="101.33333333333334" y="474.66666666666669" width="81.333333333333343" height="141.66666666666669"/>
+                                <rect key="frame" x="101.33333333333334" y="474.99999999999994" width="81.333333333333343" height="141.33333333333331"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="3">
@@ -183,7 +186,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUj-Dx-3cf" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="10" y="474.66666666666669" width="81.333333333333329" height="141.66666666666669"/>
+                                <rect key="frame" x="10" y="474.99999999999994" width="81.333333333333329" height="141.33333333333331"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="2">
@@ -200,7 +203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdW-sr-fwv" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="10" y="323" width="81.333333333333329" height="141.66666666666663"/>
+                                <rect key="frame" x="10" y="323.33333333333331" width="81.333333333333329" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="5">
@@ -217,7 +220,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZZ-Bf-iwy" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="101.33333333333334" y="323" width="81.333333333333343" height="141.66666666666663"/>
+                                <rect key="frame" x="101.33333333333334" y="323.33333333333331" width="81.333333333333343" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="6">
@@ -234,7 +237,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qS6-Jk-fq3" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="192.66666666666666" y="323" width="80.999999999999972" height="141.66666666666663"/>
+                                <rect key="frame" x="192.66666666666666" y="323.33333333333331" width="80.999999999999972" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="7">
@@ -251,7 +254,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvu-X3-ryU" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="10" y="171.66666666666663" width="81.333333333333329" height="141.33333333333337"/>
+                                <rect key="frame" x="10" y="171.66666666666669" width="81.333333333333329" height="141.66666666666669"/>
                                 <color key="backgroundColor" red="0.49421218399189348" green="0.81514883650549264" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="50"/>
                                 <state key="normal" title="8">
@@ -286,32 +289,6 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evY-pq-gfO">
                                 <rect key="frame" x="10" y="54.000000000000007" width="355" height="107.66666666666669"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhE-BG-n4c" colorLabel="IBBuiltInLabel-Gray">
-                                <rect key="frame" x="284" y="173" width="81.333333333333314" height="141.33333333333337"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
-                                <state key="normal" title="AC">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="clearbutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dso-E6-LR8"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeH-yh-7Hc">
-                                <rect key="frame" x="10" y="44" width="355" height="107.66666666666669"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
