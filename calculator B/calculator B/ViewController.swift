@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     var savedNum = 0
     var lastbuttonpressedwasmode = false
     var currentmode :modes = .notSet
-   
+   var  name = " mohamed" 
     
     func updateText() {
            guard let labelInt: Int = Int(labelstring) else {
